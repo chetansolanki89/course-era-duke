@@ -4,24 +4,26 @@ Programming Foundations with JavaScript, HTML and CSS
 Try experimenting with the DukeLearnToProgram (DLTP) JavaScript programming environment to get comfortable with beginning to write JavaScript!
 Here is a link to the environment: http://www.dukelearntoprogram.com/course1/example/index.php
 
-<h3>Program 1:</h3>
+<b>Program 1:</b>
 Write a JavaScript program that modifies an image by putting three vertical stripes on it - a red stripe on the left one third, a green stripe in the middle, and a blue stripe on the right one third.
 For example, if your program ran on Drew’s picture shown on the left, the resulting image would have red, green and blue vertical stripes as shown in the image on the right.
 
-<h3>Program 2:</h3>
+<b>Program 2:</b>
 Write a JavaScript function named swapRedGreen with one parameter pixel (representing a single pixel). This function should swap the red and green values of the pixel. For example, if you have a pixel with red = 255, green = 100, blue = 150, after calling swapRedGreen on that pixel its new RGB values would be red = 100, green = 255, blue = 150.
 
-<h3>Program 3:</h3>
+<b>Program 3:</b>
 Write code to change the Duke blue devil (the image below on the left) to be yellow.
 
-<h3>Program 4:</h3>
+<b>Program 4:</b>
 Write the green screen algorithm you saw in the lecture of the course.
 
-<h3>Program 5:</h3>
-Your friend is trying to write a program that draws a square 200 pixels by 200 pixels and that looks like this square with colors red (red value 255), green (green value 255), blue (blue value 255) and magenta (red value 255 and blue value 255). All other RGB values are set to 0.
+<b>Program 5:</b>
+Your friend is trying to write a program that draws a square 200 pixels by 200 pixels and that looks like this square with colors red (red value 255), green (green value 255), blue (blue value 255) and magenta (red value 255 and blue value 255). All other RGB values are set to 0.<br>
 ![](images/sq1.PNG)
-Your friend has written code to try to solve this problem, however their code has a bug, and produces this image:
+
+Your friend has written code to try to solve this problem, however their code has a bug, and produces this image:<br>
 ![](images/sq2.PNG)
+
 Here is their code:<br>
     &emsp;var img = new SimpleImage(200,200);<br>
     &emsp;for (var px of img.values()){<br>
@@ -40,7 +42,7 @@ Here is their code:<br>
     &emsp;print (img);<br>
 Your task is to find and fix the bug. Use what you have learned about applying the scientific method to debugging: gather information, apply your knowledge about images and programming, form a hypothesis, test your hypothesis, and finally, change the code to fix the problem.
 
-<h3>Program 6:</h3>
+<b>Program 1:</b>
 Write a function named setBlack that has one parameter pixel (representing a single pixel) and returns pixel with its red, green, and blue components changed so that the pixel’s color is black.
 Now you will write another function named addBorder. This function will add a black border to an image, such as in the following example:
 ![](images/panda.PNG)
