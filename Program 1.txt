@@ -1,0 +1,28 @@
+// write your code here
+var x=2;
+var y=3*x;
+var z=4*x;
+print(x);
+print(y);
+print(z);
+
+function add(x,y,z){
+    return x+y+z;
+}
+
+print(add(x,y,z));
+
+var a1="aa";
+var a2="bb";
+var a3="cc";
+
+
+print(add(a1,a2,a3));
+
+
+var img=new SimpleImage("chapel.png");
+//print(img.getWidth());
+function getD(img) {
+    return print(img.getWidth()), print(img.getHeight());
+}
+getD(img);

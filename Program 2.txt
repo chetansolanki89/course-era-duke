@@ -1,0 +1,18 @@
+// write your code here
+var img=new SimpleImage("eastereggs.jpg");
+print(img);
+var w=img.getWidth();
+var r1=0;
+var g1=0;
+print(w);
+function swapRedGreen(img,r1,g1){
+    for(var pixel of img.values())
+    {
+        r1=pixel.getRed();
+        g1=pixel.getGreen();
+        pixel.setRed(g1);
+        pixel.setGreen(r1);
+    }
+}
+swapRedGreen(img,r1,g1);
+print(img);
