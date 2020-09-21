@@ -19,9 +19,9 @@ Write the green screen algorithm you saw in the lecture of the course.
 
 Program 5:
 Your friend is trying to write a program that draws a square 200 pixels by 200 pixels and that looks like this square with colors red (red value 255), green (green value 255), blue (blue value 255) and magenta (red value 255 and blue value 255). All other RGB values are set to 0.
-
+![]{images/sq1.PNG
 Your friend has written code to try to solve this problem, however their code has a bug, and produces this image:
-
+![]{images/sq2.PNG
 Here is their code:<br>
     &emsp;var img = new SimpleImage(200,200);<br>
     &emsp;for (var px of img.values()){<br>
