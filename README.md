@@ -42,7 +42,7 @@ Here is their code:<br>
     &emsp;print (img);<br>
 Your task is to find and fix the bug. Use what you have learned about applying the scientific method to debugging: gather information, apply your knowledge about images and programming, form a hypothesis, test your hypothesis, and finally, change the code to fix the problem.
 
-<b>Program 1:</b>
+<b>Program 6:</b>
 Write a function named setBlack that has one parameter pixel (representing a single pixel) and returns pixel with its red, green, and blue components changed so that the pixel’s color is black.
 Now you will write another function named addBorder. This function will add a black border to an image, such as in the following example:
 ![](images/panda.PNG)
